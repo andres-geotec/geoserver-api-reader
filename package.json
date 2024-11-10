@@ -1,0 +1,22 @@
+{
+  "name": "geoserver-api-reader",
+  "version": "0.0.1",
+  "description": "Build url to query geoserver api services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andres-geotec/geoserver-api-reader.git"
+  },
+  "keywords": [
+    "geoserver"
+  ],
+  "author": "Andrés Martínez González <andres.geotec@gmail.com> (https://github.com/andres-geotec)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andres-geotec/geoserver-api-reader/issues"
+  },
+  "homepage": "https://github.com/andres-geotec/geoserver-api-reader#readme"
+}
