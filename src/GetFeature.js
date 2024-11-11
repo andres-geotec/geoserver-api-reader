@@ -1,5 +1,5 @@
-import GeojsonCache from './GeojsonCache'
-import { urlService, validarCQL } from './_utils'
+import GeojsonCache from './GeojsonCache.js'
+import { /*urlService,*/ validarCQL } from './_utils.js'
 
 export default class GetFeature {
   _servicio = 'wfs'
@@ -13,13 +13,13 @@ export default class GetFeature {
 
   constructor(capa, espacioDeTrabajo) {
     this._capa = capa
-    this._url = urlService(espacioDeTrabajo, this._servicio)
+    // this._url = urlService(espacioDeTrabajo, this._servicio)
     this._cache = new GeojsonCache(this.url)
   }
 
-  get url() {
-    return `${this._url}${this.parametrosEnFormatoURL}`
-  }
+  // get url() {
+  //   return `${this._url}${this.parametrosEnFormatoURL}`
+  // }
 
   /**
    * @param {string}

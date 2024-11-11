@@ -1,6 +1,6 @@
-import GetMap from './GetMap'
-import GetLegendGraphic from './GetLegendGraphic'
-import GetFeature from './GetFeature'
+import GetMap from './GetMap.js'
+import GetLegendGraphic from './GetLegendGraphic.js'
+import GetFeature from './GetFeature.js'
 
 export default class GeoserverCapa {
   // WMS

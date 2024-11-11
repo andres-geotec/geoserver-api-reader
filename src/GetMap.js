@@ -1,4 +1,4 @@
-import { urlService, validarCQL } from './_utils'
+import { /*urlService,*/ validarCQL } from './_utils.js'
 
 export default class GetMap {
   _servicio = 'wms'
@@ -9,12 +9,12 @@ export default class GetMap {
 
   constructor({ capa, espacioDeTrabajo }) {
     this._capa = capa
-    this._url = urlService(espacioDeTrabajo, this._servicio)
+    // this._url = urlService(espacioDeTrabajo, this._servicio)
   }
 
-  get url() {
-    return this._url
-  }
+  // get url() {
+  //   return this._url
+  // }
 
   /**
    * @param {string}

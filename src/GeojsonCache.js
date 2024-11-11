@@ -1,4 +1,4 @@
-import { cargarGeojson, tiposGeometria, calcularLimites } from './_utils'
+import { cargarGeojson, tiposGeometria, calcularLimites } from './_utils.js'
 
 export default class GeojsonCache {
   _status = false
