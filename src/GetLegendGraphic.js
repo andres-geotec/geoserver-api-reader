@@ -1,4 +1,4 @@
-import { /*urlService,*/ validarCQL } from './_utils.js'
+import { /*urlService,*/ validarCQL } from './utils.js'
 
 export default class GetLegendGraphic {
   _servicio = 'wms'

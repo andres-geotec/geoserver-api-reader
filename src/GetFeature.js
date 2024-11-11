@@ -1,5 +1,5 @@
 import GeojsonCache from './GeojsonCache.js'
-import { /*urlService,*/ validarCQL } from './_utils.js'
+import { /*urlService,*/ validarCQL } from './utils.js'
 
 export default class GetFeature {
   _servicio = 'wfs'
