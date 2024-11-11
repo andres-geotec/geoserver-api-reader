@@ -1,6 +1,6 @@
-import url_servidor_mapas from './entorno'
+// import url_servidor_mapas from './entorno'
 
-export function urlService(workspace, service) {
+export function urlService(url_servidor_mapas, workspace, service) {
   return `${[url_servidor_mapas, workspace, service]
     .filter(i => i)
     .map(d => (d.slice(-1) == '/' ? d.slice(0, -1) : d)) // Esta línea hace que no haya diagonales consecutivas "//" en el path

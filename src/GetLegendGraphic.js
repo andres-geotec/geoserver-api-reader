@@ -1,4 +1,4 @@
-import { urlService, validarCQL } from './_utils'
+import { /*urlService,*/ validarCQL } from './_utils.js'
 
 export default class GetLegendGraphic {
   _servicio = 'wms'
@@ -16,13 +16,13 @@ export default class GetLegendGraphic {
 
   constructor({ capa, espacioDeTrabajo }) {
     this._capa = capa
-    this._url = urlService(espacioDeTrabajo, this._servicio)
+    // this._url = urlService(espacioDeTrabajo, this._servicio)
     this._legendOptions = new LegendOptions()
   }
 
-  get url() {
-    return `${this._url}${this.parametrosEnFormatoURL}`
-  }
+  // get url() {
+  //   return `${this._url}${this.parametrosEnFormatoURL}`
+  // }
 
   /**
    * @param {string}
@@ -60,7 +60,7 @@ export default class GetLegendGraphic {
       transparent: this._transparente,
       height: this._alto,
       width: this._ancho,
-      legend_options: this.legendOptions.asText,
+      legend_options: this.legendOptions?.asText,
       style: this._estilo,
       cql_filter: this.filtro,
     }

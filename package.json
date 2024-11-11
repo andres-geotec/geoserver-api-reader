@@ -2,7 +2,9 @@
   "name": "geoserver-api-reader",
   "version": "0.0.1",
   "description": "Build url to query geoserver api services.",
+  "files": ["src"],
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
