@@ -1,6 +1,6 @@
 {
   "name": "geoserver-api-reader",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Build url to query geoserver api services.",
   "files": [
     "src"

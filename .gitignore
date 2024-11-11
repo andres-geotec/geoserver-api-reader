@@ -22,7 +22,7 @@ coverage
 docs/.vitepress/dist
 docs/.vitepress/cache
 docs/.vitepress/.temp
-ejemplos
+# ejemplos
 
 # Editor directories and files
 .vscode/*
