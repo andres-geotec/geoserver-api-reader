@@ -58,7 +58,7 @@
     // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
   },
   "include": [
-    "../build/geoserver-api-reader/**/*.js"
+    "../build/geoserver-api-reader/src/**/*.js"
   ],
   "exclude": []
 }

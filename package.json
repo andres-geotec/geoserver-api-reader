@@ -9,7 +9,7 @@
   "scripts": {
     "build-package": "npm run transpile && npm run generate-types && node tasks/prepare-package.js",
     "generate-types": "tsc --project config/tsconfig-build.json --declaration --declarationMap --emitDeclarationOnly --outdir build/geoserver-api-reader",
-    "pre-transpile": "shx rm -rf build/geoserver-api-reader && shx mkdir -p build/geoserver-api-reader && shx cp -rf src build/geoserver-api-reader/src",
+    "pre-transpile": "shx rm -rf build/geoserver-api-reader/* && shx mkdir -p build/geoserver-api-reader && shx cp -rf src build/geoserver-api-reader/src",
     "test": "echo \"Error: no test specified\" && exit 1",
     "transpile": "npm run pre-transpile && tsc --project config/tsconfig-build.json"
   },
