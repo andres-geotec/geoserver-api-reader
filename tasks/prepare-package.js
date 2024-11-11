@@ -17,6 +17,7 @@ async function main() {
   delete pkg.style;
   delete pkg.eslintConfig;
   delete pkg.private;
+  delete pkg.files;
 
   await fse.writeJSON(join(buildDir, 'package.json'), pkg, {spaces: 2});
 
